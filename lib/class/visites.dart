@@ -33,8 +33,6 @@ class Visite {
       'heureFin': heureFin,
     };
   }
-
-  // Méthode statique pour créer un objet Visite à partir de JSON
   static Visite fromJson(Map<String, dynamic> json) {
     return Visite(
       idVisite: json['idVisite'],
